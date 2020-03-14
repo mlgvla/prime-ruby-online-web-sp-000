@@ -3,6 +3,7 @@ require 'pry'
   def prime?(num)
     if num < 0
       return false
+    end
 
     (2..(num - 1)).each do |n|
       return false if num % n == 0
